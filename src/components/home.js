@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Regular extends Component {
+class Home extends Component {
 
   render() {
 
@@ -17,4 +17,4 @@ class Regular extends Component {
   }
 }
 
-export default Regular;
+export default Home;

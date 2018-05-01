@@ -38,5 +38,7 @@ app.post('/api/auth', (req,res) => {
   }
 });
 
-app.listen(3100);
-console.log('api runnging on port 3100: ');
+const PORT = 3100;
+
+app.listen(PORT);
+console.log('api runnging on port ' + PORT + ': ');

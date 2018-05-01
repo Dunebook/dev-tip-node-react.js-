@@ -13,7 +13,10 @@ class Special extends Component {
     if( isAuthenticated() )
       getSpecialTips().then((tips) => {
         this.setState({ tips });
-      })
+      }).catch(err => {
+        alert('User Not Authenticated');
+        this.setState({auth: false}
+        )})
     else{
       alert('User Not Authenticated');
       this.setState({auth: false})
