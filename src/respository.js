@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3100';
+const BASE_URL = 'http://localhost:5000';
 
 export function getRegularTips () {
 	return axios.get(`${BASE_URL}/api/tips/regular`)
